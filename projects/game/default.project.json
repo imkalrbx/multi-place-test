@@ -6,6 +6,9 @@
 			"$className": "ServerScriptService",
 			"TS": {
 				"$path": "out/game/src"
+			},
+			"common": {
+				"$path": "out/common/src"
 			}
 		},
 		"ReplicatedStorage": {
@@ -16,8 +19,8 @@
 					"$path": "../../node_modules/@rbxts"
 				}
 			},
-			"shared": {
-				"$path": "out/shared/src"
+			"common": {
+				"$path": "out/common/src"
 			}
 		}
 	}

@@ -13,7 +13,7 @@
 		"incremental": true,
 
 		// required, configurable
-		"rootDirs": ["src", "../shared/src"],
+		"rootDirs": ["src", "../common/src"],
 		"outDir": "out",
 
 		// optional, non-configurable
@@ -22,8 +22,9 @@
 
 		"baseUrl": "src",
 		"paths": {
-			"@shared/*": ["../../shared/src/*"]
+			"common/*": ["../../common/src/*"]
 		}
 	},
-	"include": ["**/*", "../shared/**/*"]
+	"include": ["**/*", "../common/**/**.ts"]
+
 }

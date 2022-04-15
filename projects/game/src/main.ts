@@ -1,4 +1,3 @@
-// import { makeHello } from "./module";
+import { goodbye } from "common/shared/othermodule";
 
-// makeHello("aa");
-export {};
+goodbye;
